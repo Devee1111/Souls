@@ -1,0 +1,12 @@
+name: Souls
+main: me.Devee1111.Souls
+softdepend: [SilkSpawners, CustomCrafting]
+api-version: 1.16
+version: 1.3
+author: Devee1111
+commands:
+  soul:
+    description: Main command for plugin
+    usage: /soul <help, list, cost, giveegg, give> <playername> <entity> <amount>
+    aliases: [souls, mobsouls, mobsoul, soulz]
+  

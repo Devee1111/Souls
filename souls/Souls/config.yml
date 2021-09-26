@@ -1,0 +1,84 @@
+#This will spit out useful information in console
+debug: false
+#What mobs do we want to keep track of killing?
+record:
+  - BAT
+  - COW
+  - CREEPER
+  - BLAZE
+  - CAVE_SPIDER
+  - CHICKEN
+  - DROWNED
+  - ELDER_GUARDIAN
+  - ENDERMAN
+  - EVOKER
+  - FOX
+  - GHAST
+  - GUARDIAN
+  - HOGLIN
+  - HORSE
+  - HUSK
+  #This will essentially drop an item that can be used similar to a spawn egg, so beware
+  - IRON_GOLEM
+  - Llama
+  - MAGMA_CUBE
+  - MOOSHROOM
+  - PANDA
+  - PHANTOM
+  - PIG
+  - PIGLIN
+  - PIGLIN_BRUTE
+  - PILLAGER
+  - RABBIT
+  - RAVAGER
+  - SHEEP
+  - SHULKER
+  - SILVERFISH
+  - SKELETON
+  - SLIME
+  - SPIDER
+  - SQUID
+  - STRAY
+  - STRIDER
+  - TURTLE
+  - VILLAGER
+  - VINDICATOR
+  - WITCH
+  - ZOGLIN
+  - ZOMBIE
+cost:
+  #This is the value used if a recorded mob is not given a specific value below. 
+  default:
+    price: 50
+   #Mob name
+  ELDER_GUARDIAN:
+    #Number of souls required
+    price: 17
+  EVOKER:
+    #Normal mansions have 4 evokers, it's set to 11 so the last evoker of the 3rd mansion can be captured 
+    price: 11
+  GHAST:
+    price: 25
+  IRON_GOLEM:
+    price: 50
+  SHULKER: 
+    price: 35
+messages:
+  prefix: '&8[&4Souls&8] '
+  #These does not support the prefix feature, please keep updated with messages.prefix!
+  playerOnly: '&8[&4Souls&8] &cError! Only players can run this syntax.'
+  playerNotOnline: '&8[&4Souls&8] &cError! Player is not online.'
+  unrealEntity: '&8[&4Souls&8] &cError! This entity does not exist.'
+  help: '&8[&4Souls&8] &c/souls, <list/cost, page>, <giveegg, player, amount> <reload> <give, player, entity, amount>'
+  #These messages will always show the prefix before the message. 
+  notEnoughSouls: '&cYou do not have enough souls to capture this mob.'
+  noPermission: '&cYou do not have permission to run this command.'
+  eggReceived: '&bYou have acquired a &4Soul &bEgg'
+  intRequired: '&cError! Integer required for arguement. Try /souls help.'
+
+
+  
+
+#No touchy
+version: 0.5
+#NO TOUCHY I SAID
